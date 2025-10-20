@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "Register new user",
+      "method": "POST",
+      "body": {
+        "action": "register",
+        "email": "test@example.com",
+        "password": "testpass123",
+        "username": "TestUser"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "user": {
+          "id": "number",
+          "email": "string",
+          "username": "string",
+          "insectomix_balance": "number",
+          "is_premium": "boolean"
+        }
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

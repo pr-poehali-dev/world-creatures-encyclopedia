@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "Submit feedback",
+      "method": "POST",
+      "body": {
+        "email": "user@example.com",
+        "message": "Great encyclopedia!"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Get all creatures",
+      "method": "GET",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "creatures": "array",
+        "is_premium": "boolean"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
