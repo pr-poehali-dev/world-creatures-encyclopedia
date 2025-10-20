@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,35 +6,35 @@
 
 @layer base {
   :root {
-    --background: 240 14% 97%;
-    --foreground: 240 47% 11%;
+    --background: 45 20% 96%;
+    --foreground: 30 10% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 47% 11%;
+    --card-foreground: 30 10% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 47% 11%;
+    --popover-foreground: 30 10% 15%;
 
-    --primary: 262 83% 58%;
+    --primary: 25 75% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 14% 95%;
-    --secondary-foreground: 240 47% 11%;
+    --secondary: 45 15% 90%;
+    --secondary-foreground: 30 10% 15%;
 
-    --muted: 240 10% 96%;
-    --muted-foreground: 240 7% 46%;
+    --muted: 45 12% 92%;
+    --muted-foreground: 30 8% 40%;
 
-    --accent: 262 83% 58%;
+    --accent: 35 65% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 240 10% 88%;
-    --input: 240 10% 88%;
-    --ring: 262 83% 58%;
+    --border: 45 15% 85%;
+    --input: 45 15% 85%;
+    --ring: 25 75% 45%;
 
-    --radius: 0.5rem;
+    --radius: 0.3rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -93,7 +93,7 @@
   body {
     @apply bg-background text-foreground;
     font-family:
-      "Source Sans Pro",
+      "Open Sans",
       -apple-system,
       sans-serif;
   }
@@ -104,6 +104,6 @@
   h4,
   h5,
   h6 {
-    font-family: "Merriweather", serif;
+    font-family: "Libre Baskerville", "Merriweather", serif;
   }
 }
